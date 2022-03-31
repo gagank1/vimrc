@@ -329,6 +329,12 @@ map <leader>x :e ~/buffer.md<cr>
 map <leader>pp :setlocal paste!<cr>
 
 
+" => CUSTOM
+inoremap jk <Esc>
+inoremap kj <Esc>
+set number
+
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper functions
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
